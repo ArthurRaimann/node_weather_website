@@ -4,7 +4,8 @@
   "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/app.js -e js,hbs,css"
+    "start": "node src/app.js -e js,hbs,css",
+    "dev": "nodemon src/app.js -e js,hbs,css"
   },
   "dependencies": {
     "express": "^4.17.3",

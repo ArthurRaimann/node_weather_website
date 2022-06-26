@@ -5,6 +5,7 @@ const hbs = require('hbs')
 
 // stores the created express application in a variable
 const app = express()
+const port = process.env.PORT || 3000
 
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
@@ -109,6 +110,6 @@ app.get('*', (req, res) => {
 
 
 // starts the server and listens to a specific port
-app.listen(3000,()=>{
-    console.log('Server is running on Port: ' + 3000)
+app.listen(port,()=>{
+    console.log('Server is running on Port: ' + port)
 })
