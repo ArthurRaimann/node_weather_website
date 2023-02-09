@@ -10,4 +10,4 @@ Setup:
 
 ## Test it here:
 
-https://arthur-weather-application.herokuapp.com/
+https://arthur-node-weather-app.herokuapp.com/
